@@ -1,8 +1,218 @@
 fileFormatVersion: 2
 guid: df39f897adf8c403d8197e2619be36a0
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body.baked
+    100002: Face.baked
+    100004: //RootNode
+    100006: Hair001.baked
+    100008: J_Adj_L_FaceEye
+    100010: J_Adj_L_FaceEye_end
+    100012: J_Adj_L_FaceEyeSet
+    100014: J_Adj_R_FaceEye
+    100016: J_Adj_R_FaceEye_end
+    100018: J_Adj_R_FaceEyeSet
+    100020: J_Bip_C_Chest
+    100022: J_Bip_C_Head
+    100024: J_Bip_C_Hips
+    100026: J_Bip_C_Neck
+    100028: J_Bip_C_Spine
+    100030: J_Bip_C_UpperChest
+    100032: J_Bip_L_Foot
+    100034: J_Bip_L_Hand
+    100036: J_Bip_L_Index1
+    100038: J_Bip_L_Index2
+    100040: J_Bip_L_Index3
+    100042: J_Bip_L_Index3_end
+    100044: J_Bip_L_Index3_end_end
+    100046: J_Bip_L_Little1
+    100048: J_Bip_L_Little2
+    100050: J_Bip_L_Little3
+    100052: J_Bip_L_Little3_end
+    100054: J_Bip_L_Little3_end_end
+    100056: J_Bip_L_LowerArm
+    100058: J_Bip_L_LowerLeg
+    100060: J_Bip_L_Middle1
+    100062: J_Bip_L_Middle2
+    100064: J_Bip_L_Middle3
+    100066: J_Bip_L_Middle3_end
+    100068: J_Bip_L_Middle3_end_end
+    100070: J_Bip_L_Ring1
+    100072: J_Bip_L_Ring2
+    100074: J_Bip_L_Ring3
+    100076: J_Bip_L_Ring3_end
+    100078: J_Bip_L_Ring3_end_end
+    100080: J_Bip_L_Shoulder
+    100082: J_Bip_L_Thumb1
+    100084: J_Bip_L_Thumb2
+    100086: J_Bip_L_Thumb3
+    100088: J_Bip_L_Thumb3_end
+    100090: J_Bip_L_Thumb3_end_end
+    100092: J_Bip_L_ToeBase
+    100094: J_Bip_L_ToeBase_end
+    100096: J_Bip_L_ToeBase_end_end
+    100098: J_Bip_L_UpperArm
+    100100: J_Bip_L_UpperLeg
+    100102: J_Bip_R_Foot
+    100104: J_Bip_R_Hand
+    100106: J_Bip_R_Index1
+    100108: J_Bip_R_Index2
+    100110: J_Bip_R_Index3
+    100112: J_Bip_R_Index3_end
+    100114: J_Bip_R_Index3_end_end
+    100116: J_Bip_R_Little1
+    100118: J_Bip_R_Little2
+    100120: J_Bip_R_Little3
+    100122: J_Bip_R_Little3_end
+    100124: J_Bip_R_Little3_end_end
+    100126: J_Bip_R_LowerArm
+    100128: J_Bip_R_LowerLeg
+    100130: J_Bip_R_Middle1
+    100132: J_Bip_R_Middle2
+    100134: J_Bip_R_Middle3
+    100136: J_Bip_R_Middle3_end
+    100138: J_Bip_R_Middle3_end_end
+    100140: J_Bip_R_Ring1
+    100142: J_Bip_R_Ring2
+    100144: J_Bip_R_Ring3
+    100146: J_Bip_R_Ring3_end
+    100148: J_Bip_R_Ring3_end_end
+    100150: J_Bip_R_Shoulder
+    100152: J_Bip_R_Thumb1
+    100154: J_Bip_R_Thumb2
+    100156: J_Bip_R_Thumb3
+    100158: J_Bip_R_Thumb3_end
+    100160: J_Bip_R_Thumb3_end_end
+    100162: J_Bip_R_ToeBase
+    100164: J_Bip_R_ToeBase_end
+    100166: J_Bip_R_ToeBase_end_end
+    100168: J_Bip_R_UpperArm
+    100170: J_Bip_R_UpperLeg
+    100172: J_Sec_L_Bust1
+    100174: J_Sec_L_Bust2
+    100176: J_Sec_L_Bust2_end
+    100178: J_Sec_R_Bust1
+    100180: J_Sec_R_Bust2
+    100182: J_Sec_R_Bust2_end
+    100184: Root
+    100186: skelton
+    400000: Body.baked
+    400002: Face.baked
+    400004: //RootNode
+    400006: Hair001.baked
+    400008: J_Adj_L_FaceEye
+    400010: J_Adj_L_FaceEye_end
+    400012: J_Adj_L_FaceEyeSet
+    400014: J_Adj_R_FaceEye
+    400016: J_Adj_R_FaceEye_end
+    400018: J_Adj_R_FaceEyeSet
+    400020: J_Bip_C_Chest
+    400022: J_Bip_C_Head
+    400024: J_Bip_C_Hips
+    400026: J_Bip_C_Neck
+    400028: J_Bip_C_Spine
+    400030: J_Bip_C_UpperChest
+    400032: J_Bip_L_Foot
+    400034: J_Bip_L_Hand
+    400036: J_Bip_L_Index1
+    400038: J_Bip_L_Index2
+    400040: J_Bip_L_Index3
+    400042: J_Bip_L_Index3_end
+    400044: J_Bip_L_Index3_end_end
+    400046: J_Bip_L_Little1
+    400048: J_Bip_L_Little2
+    400050: J_Bip_L_Little3
+    400052: J_Bip_L_Little3_end
+    400054: J_Bip_L_Little3_end_end
+    400056: J_Bip_L_LowerArm
+    400058: J_Bip_L_LowerLeg
+    400060: J_Bip_L_Middle1
+    400062: J_Bip_L_Middle2
+    400064: J_Bip_L_Middle3
+    400066: J_Bip_L_Middle3_end
+    400068: J_Bip_L_Middle3_end_end
+    400070: J_Bip_L_Ring1
+    400072: J_Bip_L_Ring2
+    400074: J_Bip_L_Ring3
+    400076: J_Bip_L_Ring3_end
+    400078: J_Bip_L_Ring3_end_end
+    400080: J_Bip_L_Shoulder
+    400082: J_Bip_L_Thumb1
+    400084: J_Bip_L_Thumb2
+    400086: J_Bip_L_Thumb3
+    400088: J_Bip_L_Thumb3_end
+    400090: J_Bip_L_Thumb3_end_end
+    400092: J_Bip_L_ToeBase
+    400094: J_Bip_L_ToeBase_end
+    400096: J_Bip_L_ToeBase_end_end
+    400098: J_Bip_L_UpperArm
+    400100: J_Bip_L_UpperLeg
+    400102: J_Bip_R_Foot
+    400104: J_Bip_R_Hand
+    400106: J_Bip_R_Index1
+    400108: J_Bip_R_Index2
+    400110: J_Bip_R_Index3
+    400112: J_Bip_R_Index3_end
+    400114: J_Bip_R_Index3_end_end
+    400116: J_Bip_R_Little1
+    400118: J_Bip_R_Little2
+    400120: J_Bip_R_Little3
+    400122: J_Bip_R_Little3_end
+    400124: J_Bip_R_Little3_end_end
+    400126: J_Bip_R_LowerArm
+    400128: J_Bip_R_LowerLeg
+    400130: J_Bip_R_Middle1
+    400132: J_Bip_R_Middle2
+    400134: J_Bip_R_Middle3
+    400136: J_Bip_R_Middle3_end
+    400138: J_Bip_R_Middle3_end_end
+    400140: J_Bip_R_Ring1
+    400142: J_Bip_R_Ring2
+    400144: J_Bip_R_Ring3
+    400146: J_Bip_R_Ring3_end
+    400148: J_Bip_R_Ring3_end_end
+    400150: J_Bip_R_Shoulder
+    400152: J_Bip_R_Thumb1
+    400154: J_Bip_R_Thumb2
+    400156: J_Bip_R_Thumb3
+    400158: J_Bip_R_Thumb3_end
+    400160: J_Bip_R_Thumb3_end_end
+    400162: J_Bip_R_ToeBase
+    400164: J_Bip_R_ToeBase_end
+    400166: J_Bip_R_ToeBase_end_end
+    400168: J_Bip_R_UpperArm
+    400170: J_Bip_R_UpperLeg
+    400172: J_Sec_L_Bust1
+    400174: J_Sec_L_Bust2
+    400176: J_Sec_L_Bust2_end
+    400178: J_Sec_R_Bust1
+    400180: J_Sec_R_Bust2
+    400182: J_Sec_R_Bust2_end
+    400184: Root
+    400186: skelton
+    2100000: F00_000_00_FaceMouth_00_FACE
+    2100002: F00_000_00_EyeWhite_00_EYE
+    2100004: F00_000_00_FaceEyeline_00_FACE
+    2100006: F00_000_00_FaceEyelash_00_FACE
+    2100008: F00_000_00_FaceBrow_00_FACE
+    2100010: F00_000_00_EyeIris_00_EYE
+    2100012: F00_000_00_EyeHighlight_00_EYE
+    2100014: F00_000_00_Face_00_SKIN
+    2100016: F00_000_00_EyeExtra_01_EYE
+    2100018: F00_001_01_Body_00_SKIN
+    2100020: F00_004_01_Tops_01_CLOTH
+    2100022: F00_003_01_Bottoms_01_CLOTH
+    2100024: F00_003_01_Shoes_01_CLOTH
+    2100026: F00_000_HairBack_00_HAIR
+    2100028: F00_000_Hair_00_HAIR
+    4300000: Face.baked
+    4300002: Body.baked
+    4300004: Hair001.baked
+    9500000: //RootNode
+    13700000: Body.baked
+    13700002: Face.baked
+    13700004: Hair001.baked
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -38,7 +248,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -46,19 +255,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -67,11 +275,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -81,7 +288,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
