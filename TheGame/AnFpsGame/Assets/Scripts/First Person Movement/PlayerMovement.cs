@@ -23,6 +23,8 @@ public class PlayerMovement : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
+        //HasArthority(); (Jack1234475's modifications)
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if (isGrounded && velocity.y < 0)
         {
@@ -45,4 +47,10 @@ public class PlayerMovement : NetworkBehaviour
 
         controller.Move(velocity * Time.deltaTime);
     }
+    /**private void HasArthority()
+    {
+        if (!base.hasAuthority){
+            return;
+        }
+    }(Jack1234475's modifications)**/
 }
