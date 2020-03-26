@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : NetworkBehaviour
 {
 
     public CharacterController controller;
@@ -18,9 +19,12 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+
     // Update is called once per frame
     void Update()
     {
+        //HasArthority(); (Jack1234475's modifications)
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if (isGrounded && velocity.y < 0)
         {
@@ -43,4 +47,10 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
     }
+    /**private void HasArthority()
+    {
+        if (!base.hasAuthority){
+            return;
+        }
+    }(Jack1234475's modifications)**/
 }
